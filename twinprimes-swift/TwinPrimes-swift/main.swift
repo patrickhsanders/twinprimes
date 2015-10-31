@@ -14,7 +14,6 @@ func printTwinPrimesToN(n: Int) -> Void {
     for var i:Int = 4; i < n; i++ {
         var valueIsPrime:Bool = true;
         
-        
         for var j:Int = 0; j < arrayOfPrimes.count; j++ {
             if(valueIsPrime && i % arrayOfPrimes[j] == 0) {
                 valueIsPrime = false
@@ -30,5 +29,4 @@ func printTwinPrimesToN(n: Int) -> Void {
     }
 }
 
-
-printTwinPrimesToN(1000000)
+printTwinPrimesToN(100000)

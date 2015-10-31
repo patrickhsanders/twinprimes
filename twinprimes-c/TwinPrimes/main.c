@@ -5,7 +5,7 @@
 void printTwinPrimesToN(unsigned long);
 
 int main(int argc, const char * argv[]) {
-    printTwinPrimesToN(1000000);
+    printTwinPrimesToN(100000);
     return 0;
 }
 
