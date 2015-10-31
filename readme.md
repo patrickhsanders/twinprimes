@@ -10,4 +10,5 @@ This chart shows the execution time and CPU usage of the Twin Primes test for mu
 
 ##Languages which can be compiled by Xcode7 without external compiler
 _Doesn't include C++_
+
 ![Apple languages performance](/diagram-apple-languages.png)
