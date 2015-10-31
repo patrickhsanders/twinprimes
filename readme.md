@@ -2,7 +2,7 @@
 ###Popular programming languages
 This chart shows the execution time and CPU usage of the Twin Primes test for multiple popular programming languages based on n = 100,000 
 
-![Different language performance](/diagram.png)
+![Different language performance](/images/diagram.png)
 
 **Notes that could effect performance:**
 - Java - ArrayList was used to store primes
@@ -11,4 +11,4 @@ This chart shows the execution time and CPU usage of the Twin Primes test for mu
 ##Languages which can be compiled by Xcode7 without external compiler
 _Doesn't include C++_
 
-![Apple languages performance](/diagram-apple-languages.png)
+![Apple languages performance](/images/diagram-apple-languages.png)
