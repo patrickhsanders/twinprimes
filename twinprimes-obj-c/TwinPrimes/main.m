@@ -13,7 +13,7 @@ void printTwinPrimes(NSMutableArray *);
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
-    NSMutableArray *array = primesZeroToN(300000);
+    NSMutableArray *array = primesZeroToN(1000000);
   }
     return 0;
 }
