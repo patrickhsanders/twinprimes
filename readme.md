@@ -5,6 +5,7 @@ This chart shows the execution time and CPU usage of the Twin Primes test for mu
 ![Different language performance](/images/diagram.png)
 
 **Notes that could effect performance:**
+- All - execution time could be reduced by 50% by iterating by two (i.e. 3,5,7 not 3,4,5) *See PHP*
 - Java - ArrayList was used to store primes
 - Objective-C - NSMutableArray was used to store primes, primes were stored as NSNumber
 

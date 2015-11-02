@@ -1,3 +1,3 @@
 #!/bin/bash
 
-php -f "/Users/patrick/Desktop/twinprimes.php"
+php -f "/Users/adityanarayan/patrick/twinprimes/twinprimes-php/twinprimes.php"

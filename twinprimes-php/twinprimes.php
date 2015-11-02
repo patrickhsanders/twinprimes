@@ -3,7 +3,8 @@
 	function printTwinPrimesToN($n){
 		$arrayOfPrimes = array(2,3);
 
-		for($i = 4; $i < $n; $i++){
+		for($i = 5; $i < $n; $i+=2){
+		//for($i = 4; $i < $n; $i++){ // this performs much more unneccessary logic than line 6
 			$valueIsPrime = true;
 			for($j = 0; $j < sizeof($arrayOfPrimes); $j++){
 				if($valueIsPrime == true && $i % $arrayOfPrimes[$j] == 0){
