@@ -11,7 +11,7 @@ import Foundation
 func printTwinPrimesToN(n: Int) -> Void {
     var arrayOfPrimes: [Int] = [2,3]
     
-    for var i:Int = 4; i < n; i++ {
+    for var i:Int = 5; i < n; i = i + 2 {
         var valueIsPrime:Bool = true;
         
         for var j:Int = 0; j < arrayOfPrimes.count; j++ {
@@ -29,4 +29,4 @@ func printTwinPrimesToN(n: Int) -> Void {
     }
 }
 
-printTwinPrimesToN(100000)
+printTwinPrimesToN(1000000)

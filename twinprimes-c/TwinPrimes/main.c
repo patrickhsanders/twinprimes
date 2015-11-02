@@ -5,7 +5,7 @@
 void printTwinPrimesToN(unsigned long);
 
 int main(int argc, const char * argv[]) {
-    printTwinPrimesToN(100000);
+    printTwinPrimesToN(1000000);
     return 0;
 }
 
@@ -17,8 +17,8 @@ void printTwinPrimesToN(unsigned long n){
     if(pointer==NULL){ printf("Error allocating memory"); return; }
     
     pointer[0] = 2;
-    
-    for(unsigned long x = 3; x < n; x++){
+    for(unsigned long x = 3; x < n; x = x + 2){
+    //for(unsigned long x = 3; x < n; x++){
         int isPrime = 1;
         for(unsigned long i = 0; i < length; i++){
             if(isPrime == 1 && x % pointer[i] == 0)
